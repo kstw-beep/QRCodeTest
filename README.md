@@ -44,7 +44,7 @@ For further proposals of how I would add to these tests in a real world scenario
 
 Kimberly Schwartz - kimba.schwartzy@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/kstw-beep/QRCodeTest](https://github.com/kstw-beep/QRCodeTest)
 
 <!-- ACKNOWLEDGMENTS -->
 
