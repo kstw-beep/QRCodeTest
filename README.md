@@ -36,7 +36,8 @@ For further proposals of how I would add to these tests in a real world scenario
 1.  cd into qrcodetest
 2.  Run `npx cypress open` to open cypress runner
 3.  Select E2E Testing
-4.  Run available tests
+4.  Select chrome
+5.  Run available tests
 
 <!-- CONTACT -->
 
