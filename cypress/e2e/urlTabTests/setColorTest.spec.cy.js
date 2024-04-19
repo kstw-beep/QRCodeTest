@@ -1,12 +1,12 @@
 /**
  * setColorTest.spec.cy.js
- * Smoke and tests for Set Color pane in qr code settings - url tab
+ * Smoke tests for Set Colors pane in qr code settings - url tab
  *
  * Kimberly Schwartz
  * April 2024
  */
 
-describe('Smoke Tests for Set Color section in URL tab', () => {
+describe('Smoke Tests for Set Colors pane in URL tab', () => {
   beforeEach(() => {
     cy.visitQRCodeMonkeyTab('url');
   });
@@ -23,7 +23,7 @@ describe('Smoke Tests for Set Color section in URL tab', () => {
     cy.contains('Background Color').should('be.visible');
   });
 
-  it('sets color of qr code in colors pane using hex code inputs and generates a new qr code', () => {
+  it('sets color of qr code in Colors pane using hex code inputs and generates a new qr code', () => {
     cy.get('.pane-header .title').contains('Set Colors').click();
     // set foreground color
     cy.get('.color-picker-input').first().clear();

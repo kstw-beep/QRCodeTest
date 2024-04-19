@@ -1,12 +1,12 @@
 /**
  * addLogoTest.spec.cy.js
- * Smoke and tests for Add Logo pane in qr code settings - url tab
+ * Smoke tests for Add Logo Image pane in qr code settings - url tab
  *
  * Kimberly Schwartz
  * April 2024
  */
 
-describe('Smoke Tests for Add logo section in URL tab', () => {
+describe('Smoke Tests for Add Logo Image pane in URL tab', () => {
   beforeEach(() => {
     cy.visitQRCodeMonkeyTab('url');
   });

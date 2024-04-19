@@ -101,11 +101,11 @@ describe('Smoke Test for page wrapper elements', () => {
         cy.get('.intro-title').contains('About').should('be.visible');
         // header displays
         cy.get('h2').contains('QR Code Generator').should('be.visible');
-        // paragraph displays
+        // sub-paragraph displays
         cy.get('p').contains('QRCode Monkey').should('be.visible');
         // example qr codes display
         cy.get('.example-qrcode').eq(0).should('be.visible');
-        // other paragraphs display
+        // other About paragraphs display - verify all because probably seo text
         cy.get('.h4').eq(0).should('be.visible');
         cy.get('p').eq(0).should('be.visible');
         cy.get('.h4').eq(1).should('be.visible');

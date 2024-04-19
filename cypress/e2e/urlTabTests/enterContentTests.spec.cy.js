@@ -1,12 +1,12 @@
 /**
  * enterContentTest.spec.cy.js
- * Smoke and tests for Enter Content pane in qr code settings - url tab
+ * Smoke tests for Enter Content pane in qr code settings - url tab
  *
  * Kimberly Schwartz
  * April 2024
  */
 
-describe('Smoke Tests for Enter Content section on URL tab', () => {
+describe('Smoke Tests for Enter Content pane on URL tab', () => {
   beforeEach(() => {
     cy.visitQRCodeMonkeyTab('url');
   });
@@ -17,7 +17,7 @@ describe('Smoke Tests for Enter Content section on URL tab', () => {
       .should('be.visible');
   });
 
-  it('edits url in enter content pane and generates qr code', () => {
+  it('edits url in Enter Content pane and generates qr code', () => {
     // clear qr code url input
     cy.get('[id="qrcodeUrl"]').focus().clear();
     // type another example url string

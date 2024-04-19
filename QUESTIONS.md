@@ -1,6 +1,6 @@
 ## Assumptions, plan of attack, things you should know and general thoughts-
 
-[https://www.qrcode-monkey.com/](QR Code Monkey) has several tabs for source types for which you can generate qrcodes for.
+QR Code Monkey has several tabs for source types for which you can generate qrcodes for.
 For the sake of this assessment test, I have chosen to stick with tests for the url tab.
 However, if I were writing tests for this page on a longer timeline and trying to make the tests more sustainable,
 I would utilize utils and cypress command files to package up some of the common functions across all tabs in order to reduce redundancy while iterating out tests.

@@ -1,12 +1,12 @@
 /**
  * customizeDesignTest.spec.cy.js
- * Smoke and tests for Customize Design pane in qr code settings - url tab
+ * Smoke tests for Customize Design pane in qr code settings - url tab
  *
  * Kimberly Schwartz
  * April 2024
  */
 
-describe('Smoke Tests for Customize Design section in URL tab', () => {
+describe('Smoke Tests for Customize Design pane in URL tab', () => {
   beforeEach(() => {
     cy.visitQRCodeMonkeyTab('url');
   });
@@ -17,7 +17,7 @@ describe('Smoke Tests for Customize Design section in URL tab', () => {
       .should('be.visible');
   });
 
-  it('verifies design pane displays appropriate elements', () => {
+  it('verifies Customize Design pane displays appropriate elements', () => {
     cy.get('.pane-header .title').contains('Customize Design').click();
     // body shape options display
     cy.contains('Body Shape').should('be.visible');
